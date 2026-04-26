@@ -69,4 +69,36 @@ Python you can run on its own `python`, or you can tell it to run a specific fil
 
 There really isn't much more to it, and I think it should be left blank for now, you'll understand this better as we continue working through the folders.
 
+## venv
+
+So, a python virtual enviroment, which you can create with a command like `python -m venv NAMEOFVENV`, is something that you can think of as a tiny python... let me explain.
+
+When you run the command, it will create a folder where you ran it that will be called `./NAMEOFVENV/`, inside of which you should see something along the lines of `/Include/`, `/Lib/` and `/Scripts/`, or alternatively  `/include/`, `/lib/` and `/bin/` on linux, and the idea is simple.
+
+ - `/include/` : all of your include file
+ - `/lib/` : all of your library files
+ - `/bin/` or `/Script/` : the utility scripts and binaries to use your virtual enviroment
+
+But before we use this tiny version of python we have created for ourselves, we first need to activate it, using `.\venv\Scripts\activate` or `source ./venv/bin/activate`, and there... we're actually done
+
+If you'd like to deactivate it, just type in `deactivate` in your terminal, and you're golden.
+
+## pip
+
+Pip is part of python, it's the package manager used for installing libraries needed, and to install them you need to type in `pip install PACKAGENAME`, so for example, to run example 0 of chapter 1, you need to install package `matplotlib`, which you can do using the `pip install matplotlib` command (and here it is recommended that you do so AFTER creating a virtual enviroment, it's a good practice because it allowes you to avoid certain kinds of dependency issues in the future (long story for another time))
+
+# Additional exercises
+
+## Chapter 0
+
+Using the `python ./path/to/file.py` command, try running everything I mention in seperate files, then run `python` on its own, and play around with those values there.
+
+## Chapter 1
+
+### Falling Sphere Graph
+
+Try to implement your own version, and expand it.
+
+Implement actual collision, add in some more complicated physics (for example air resistance, elastic collision, etc)
+
 # FAQ
