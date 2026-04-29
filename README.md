@@ -93,6 +93,10 @@ Pip is part of python, it's the package manager used for installing libraries ne
 
 Using the `python ./path/to/file.py` command, try running everything I mention in seperate files, then run `python` on its own, and play around with those values there.
 
+### Classes
+
+Implement your own version of the atom class, by also creating an electron configuration class, making it more accurate and creating the methods (functions inside the class) to automatically organise things
+
 ## Chapter 1
 
 ### Falling Sphere Graph
