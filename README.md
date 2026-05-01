@@ -105,4 +105,12 @@ Try to implement your own version, and expand it.
 
 Implement actual collision, add in some more complicated physics (for example air resistance, elastic collision, etc)
 
+### Particle Physics Graph
+
+Play around with it, add more particles, graph the fields in different places.
+
+Add more complicated rules to the creation of fields.
+
+As a more complicated challange, try creating a 2d graph.
+
 # FAQ
